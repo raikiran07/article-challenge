@@ -87,7 +87,7 @@ body{
 
 }
 .author-box .author img{
-    max-width:55px;
+    max-width:45px;
     border-radius:50%;
     
 }
@@ -99,9 +99,7 @@ body{
     overflow:hidden;
 }
 
-.hidden{
-    display:none;
-}
+
 
 .author-box .author{
     display:flex;
@@ -112,10 +110,10 @@ body{
     font-size:0.8rem;
     
 }
-.share-icon{
+.share{
 /*    border:1px solid black;*/
-    padding:2%;
-    
+    padding:10px;
+/*    border:1px solid black;*/
     
     display:flex;
     align-items:center;
@@ -142,21 +140,42 @@ body{
 .share-box{
     width:100%;
     background:var(--navbar);
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:2rem;
+/*    border:1px solid black;*/
+    height:100%;
+    padding:;
+/*    padding:2rem;*/
     position:absolute;
     
     top:0;
     left:0;
     z-index:-1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     
     
 
 }
+.share-box .box{
+    width:90%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+/*    border:1px solid white;*/
+    
+}
 .share-box .icon img{
     width:100%;
+}
+.share-box .share-icons{
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
 }
 
  .share-box .icon{
@@ -191,7 +210,25 @@ font-size:1rem;
     z-index:5;
 }
 
-
+@media (min-width:840px){
+    body{
+        width:100%;
+        min-height:100vh;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .container{
+        width:80%;
+        padding:5%;
+        margin:2rem 0;
+        
+        
+        
+    }
+    
+   
+}
 
 
 
