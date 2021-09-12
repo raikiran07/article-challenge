@@ -30,11 +30,13 @@ body{
 
 .container .card-wrapper{
     width:90%;
-    border:1px solid black;
+/*    border:1px solid black;*/
 /*    margin:0 auto;*/
     background:#fff;
     position:relative;
-/*    overflow:hidden;*/
+    overflow:hidden;
+    border-radius:15px;
+    box-shadow:3px 5px 15px #a0a3a0;
     
 }
 
@@ -92,7 +94,7 @@ body{
 
 .nav-container{
     margin-top:2rem;
-    border:1px solid black;
+/*    border:1px solid black;*/
     position:relative;
     overflow:hidden;
 }
